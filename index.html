@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Register form</div>
+      <form>
+        <div class="form-field bar">
+          <label for="firstname" class="header-form">Firstname: </label>
+          <input class="form" type="text" name="firstname" />
+        </div>
+        <div class="form-field bar">
+          <label for="lastname" class="header-form">Lastname: </label>
+          <input class="form" type="text" name="lastname" /><br />
+        </div>
+        <div class="form-field bar">
+          <label for="age" class="header-form">Age</label>
+          <input class="form" type="number" name="age" min="0" max="100" />
+        </div>
+        <div class="gender form-field">
+          <label for="gender">gender</label>
+          <div><input type="radio" name="gender" /> Male</div>
+          <div><input type="radio" name="gender" /> Female</div>
+          <div><input type="radio" name="gender" /> Not Identify</div>
+        </div>
+        <div class="form-field">
+          interest
+          <div><input type="checkbox" name="interest" /> Book</div>
+          <div><input type="checkbox" name="interest" /> Games</div>
+          <div><input type="checkbox" name="interest" /> Politics</div>
+        </div>
+        <div class="form-field">
+          <label for="">Desscription</label>
+          <div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="center">
+          <button class="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

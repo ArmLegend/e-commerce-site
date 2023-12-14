@@ -1,0 +1,1 @@
+const idcard = '1234';
